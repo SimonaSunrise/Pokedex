@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://techcrunch.com/wp-content/uploads/2016/08/pokeball-shadow.png?w=1390&crop=1);
+  background-position: top;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}

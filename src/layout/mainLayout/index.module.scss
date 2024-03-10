@@ -1,0 +1,36 @@
+.Main_Layout {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: transparent;
+  font-family: "Press Start 2P", system-ui;
+  padding: 0px 40px;
+  nav {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 11px;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      margin: 0;
+      padding: 0 10px;
+      align-items: center;
+      font-size: 25px;
+
+      h3 {
+        margin-left: 25%;
+        font-size: 8px;
+      }
+      img {
+        width: 30px;
+        margin-right: -15px;
+      }
+      .Pokedex_Img {
+        width: 80px;
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.Box_Title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 40px;
+  font-size: 11px;
+  .Pokedex__Img {
+    width: 70px;
+  }
+}
+.Box_Para {
+  margin-left: 10px;
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Box_Title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 27px;
+    font-size: 14px;
+    .Pokedex__Img {
+      width: 70px;
+    }
+  }
+  .Box_Para {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+    gap: 0;
+  }
+}
