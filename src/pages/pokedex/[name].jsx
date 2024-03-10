@@ -39,10 +39,7 @@ export default function Pokedex() {
     <>
       {notFound ? (
         <p className={styles.notfound}>
-          {router.query.name} not found...💢 <br />
-          <br />
-          try again! <br />
-          <br />{" "}
+          {router.query.name} not found...💢 try again!
         </p>
       ) : (
         <>
@@ -118,11 +115,12 @@ export default function Pokedex() {
             </div>
           ) : (
             <>
-              <p className={styles.notfound}>
-                {" "}
-                {router.query.name +
-                  " not found... 💢 or wait for 3, 2, 1 sec! ⌛ "}
-              </p>
+              <div className={styles.notfound_box}>
+                <p className={styles.notfound}>
+                  {router.query.name +
+                    " not found... 💢 or wait for 3, 2, 1 sec! ⌛ "}
+                </p>
+              </div>
             </>
           )}
         </>
