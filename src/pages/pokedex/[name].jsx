@@ -61,7 +61,7 @@ export default function Pokedex() {
                     value={pokemonSearch}
                     onChange={onHandleChange}
                     type="text"
-                    placeholder="Search another Pokémon here🔎"
+                    placeholder="Search another one here🔎"
                     required
                     className={styles.Input}
                   />

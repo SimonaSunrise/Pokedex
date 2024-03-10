@@ -199,7 +199,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 2;
-        width: 120px;
+        width: 70%;
         padding: 10px;
       }
     }
@@ -218,9 +218,10 @@
       width: 200px;
       background: none;
       border: none;
-      font-size: 7px;
+      height: 30px;
+      font-size: 8px;
+      font-style: bold;
       font-family: "Press Start 2P", "system-ui";
-      border-radius: 50px;
     }
     .Submit_Dinamic {
       position: absolute;
